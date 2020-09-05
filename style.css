@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    padding:0;
+}
+*box-sizing {
+    border-box
+}
+
+.test {
+    width: 500px;
+    height: 400px;
+    background: pink; 
+    display:flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
+.test1 {
+    width: 100px;
+    height:100px;
+    background: blue;
+}
+.test2 {
+    width: 100px;
+    height:100px;
+    background: yellow; 
+}
+.test3 {
+    width: 100px;
+    height:100px;
+    background: red;
+}
+.general {
+    background: url(Rectangle.png);
+    height: 100vh;
+}
+
+.general-container {
+    height: 100%;
+}
